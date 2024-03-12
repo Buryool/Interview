@@ -1,0 +1,45 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_interview_com.example.interview_80086000136374217.cer",
+          "storePassword": "0000001BCF3D2627332475480D71EDEFA5AD8557620A1C1FFC1BFE9893A9E78C05C84EE444ED1818332D5F",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B2037B939CCF5DB83FB86BA8B062D340C51C19BDCAED7F663B048C769544EA36DD485955F315811",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_interview_com.example.interview_80086000136374217.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_interview_com.example.interview_80086000136374217.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "miniCalendar",
+      "srcPath": "./miniCalendar"
+    }
+  ]
+}

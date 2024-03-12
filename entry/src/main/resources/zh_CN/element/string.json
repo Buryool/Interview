@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "前端面试宝典，包含常见面试题，和企业真实面经"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "面试通"
+    }
+  ]
+}
